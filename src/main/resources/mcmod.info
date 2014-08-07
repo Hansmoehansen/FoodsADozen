@@ -1,0 +1,17 @@
+[
+{
+  "modid": "foodsadozen",
+  "name": "Foods A Dozen",
+  "description": "Adds more food to Minecraft",
+  "version": "1.1 Build 1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Hansmoehansen"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "parrent":"",
+  "dependencies": []
+}
+]
