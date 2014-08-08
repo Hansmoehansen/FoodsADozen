@@ -1,1 +1,15 @@
-item.grinder.name=Grinder
+#American English
+
+#Items
+item.grinder.name=Mortar
+item.flour.name=Flour
+item.salt.name=Salt
+item.yeast.name=Yeast
+item.raw_dough.name=Raw Dough
+item.butter.name=Butter
+item.pancake_batter.name=Pankace Batter
+item.tomato.name=Tomato
+item.tomato_seed.name=Tomato Seeds
+
+#Creative Tab
+itemGroup.foodsadozen=Foods A Dozen

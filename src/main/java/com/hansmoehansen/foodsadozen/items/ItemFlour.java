@@ -1,11 +1,9 @@
 package com.hansmoehansen.foodsadozen.items;
 
-import com.hansmoehansen.foodsadozen.handlers.ItemFAB;
-import com.hansmoehansen.foodsadozen.reference.Reference;
-import com.hansmoehansen.foodsadozen.handlers.ItemFAB;
+import com.hansmoehansen.foodsadozen.init.ItemFAD;
 import com.hansmoehansen.foodsadozen.reference.Reference;
 
-public class ItemFlour extends ItemFAB
+public class ItemFlour extends ItemFAD
 {
     public ItemFlour()
     {

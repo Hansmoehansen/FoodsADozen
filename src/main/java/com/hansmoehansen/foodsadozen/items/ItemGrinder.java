@@ -1,9 +1,9 @@
 package com.hansmoehansen.foodsadozen.items;
 
-import com.hansmoehansen.foodsadozen.handlers.ItemFAB;
+import com.hansmoehansen.foodsadozen.init.ItemFAD;
 import com.hansmoehansen.foodsadozen.reference.Reference;
 
-public class ItemGrinder extends ItemFAB
+public class ItemGrinder extends ItemFAD
 {
     public ItemGrinder()
     {
