@@ -3,12 +3,16 @@ package com.hansmoehansen.foodsadozen;
 import com.hansmoehansen.foodsadozen.init.*;
 import com.hansmoehansen.foodsadozen.proxy.IProxy;
 import com.hansmoehansen.foodsadozen.reference.Reference;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.gameevent.PlayerEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 
@@ -41,6 +45,9 @@ public class FoodsADozen {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        FMLCommonHandler.instance().bus().register(new EventHandler());
+        LogHandler.info("Events Registered");
+
         LogHandler.info("Initalization Finished");
     }
 

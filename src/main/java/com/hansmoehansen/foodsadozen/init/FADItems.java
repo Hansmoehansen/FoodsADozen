@@ -1,9 +1,12 @@
 package com.hansmoehansen.foodsadozen.init;
 
-import com.hansmoehansen.foodsadozen.items.*;
+import com.hansmoehansen.foodsadozen.items.base_ingredients.*;
+import com.hansmoehansen.foodsadozen.items.crafting_tools.*;
+import com.hansmoehansen.foodsadozen.items.crops.*;
+import com.hansmoehansen.foodsadozen.items.dough_and_batter.*;
+import com.hansmoehansen.foodsadozen.items.seeds.*;
+//import com.hansmoehansen.foodsadozen.items.meals_and_food.*; For future content
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.init.Blocks;
-import net.minecraft.item.ItemSeeds;
 
 public class FADItems
 {
@@ -25,7 +28,7 @@ public class FADItems
         GameRegistry.registerItem(salt, "salt");
         GameRegistry.registerItem(yeast, "yeast");
         GameRegistry.registerItem(butter, "butter");
-        GameRegistry.registerItem(pancake_batter, "pancake_batter");
+        //GameRegistry.registerItem(pancake_batter, "pancake_batter");
         //GameRegistry.registerItem(tomato_seed, "tomato_seed"); Now uses the tomato as the seed
         GameRegistry.registerItem(tomato, "tomato");
     }

@@ -1,6 +1,6 @@
 package com.hansmoehansen.foodsadozen.init;
 
-import com.hansmoehansen.foodsadozen.blocks.BlockTomatoCrop;
+import com.hansmoehansen.foodsadozen.blocks.crops.*;
 import com.hansmoehansen.foodsadozen.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 

@@ -1,14 +1,24 @@
 #American English
 
 #Items
+
+#Crafting Tools
 item.grinder.name=Mortar
+
+#Base Ingredients
 item.flour.name=Flour
 item.salt.name=Salt
 item.yeast.name=Yeast
-item.raw_dough.name=Raw Dough
 item.butter.name=Butter
+
+#Dough and batter
+item.raw_dough.name=Raw Dough
 item.pancake_batter.name=Pankace Batter
+
+#Crops
 item.tomato.name=Tomato
+
+#Seeds
 item.tomato_seed.name=Tomato Seeds
 
 #Creative Tab
