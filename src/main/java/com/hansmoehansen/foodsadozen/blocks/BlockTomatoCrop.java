@@ -12,7 +12,7 @@ public class BlockTomatoCrop extends BlockCrops
     @Override
     protected Item func_149866_i()
     {
-        return FADItems.tomato_seed;
+        return FADItems.tomato;
     }
 
     @Override

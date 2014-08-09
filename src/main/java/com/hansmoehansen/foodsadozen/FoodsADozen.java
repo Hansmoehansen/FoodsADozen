@@ -24,16 +24,16 @@ public class FoodsADozen {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        ConfigHandler.init(event.getSuggestedConfigurationFile());
+        ConfigHandler.init(event.getSuggestedConfigurationFile()); //Init config file
         LogHandler.info("Config Loaded");
 
-        FADBlocks.init();
+        FADBlocks.init(); //Init blocks
         LogHandler.info("Blocks Initialzied");
 
-        FADItems.init();
+        FADItems.init(); //Init items
         LogHandler.info("Items Initalized");
 
-        RecipieHandler.init();
+        RecipieHandler.init(); //Init recipies
         LogHandler.info("Recipies Initialized");
     }
 

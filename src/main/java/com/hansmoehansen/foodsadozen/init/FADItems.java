@@ -26,7 +26,7 @@ public class FADItems
         GameRegistry.registerItem(yeast, "yeast");
         GameRegistry.registerItem(butter, "butter");
         GameRegistry.registerItem(pancake_batter, "pancake_batter");
-        GameRegistry.registerItem(tomato_seed, "tomato_seed");
+        //GameRegistry.registerItem(tomato_seed, "tomato_seed"); Now uses the tomato as the seed
         GameRegistry.registerItem(tomato, "tomato");
     }
 
