@@ -45,8 +45,9 @@ public class FoodsADozen {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        //Init EventHandler (onItemCrafted)
         FMLCommonHandler.instance().bus().register(new EventHandler());
-        LogHandler.info("Events Registered");
+        LogHandler.info("EventHandler Registered");
 
         LogHandler.info("Initalization Finished");
     }
